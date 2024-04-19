@@ -72,7 +72,7 @@ for k,v in pairs(tex) do
 	texsize[k].h2 = tex[k]:getHeight()/2
 end
 
-listorder = {0,-2,40,-1,1,13,27,57,2,22,25,26,39,54,44,45,3,4,5,6,7,51,52,53,8,9,10,56,16,29,17,18,20,49,28,14,55,15,30,37,38,11,50,12,23,24,19,46,31,32,33,34,35,36,41,21,42,43,47,48}
+listorder = {0,-2,40,-1,1,13,27,57,2,22,25,26,39,54,44,45,3,4,5,6,7,51,52,53,8,9,10,56,16,29,17,18,20,49,28,14,55,15,30,37,38,11,50,12,23,24,19,46,31,32,33,34,35,36,41,21,42,43,47,48,58}
 bgsprites,winx,winy,winxm,winymc = nil,nil,nil,nil,nil
 destroysound = love.audio.newSource("destroy.wav", "static")
 beep = love.audio.newSource("beep.wav", "static")
