@@ -27,6 +27,7 @@ tex[46],tex[47],tex[48] = love.graphics.newImage("textures/fungal.png"),love.gra
 tex[49],tex[50],tex[51] = love.graphics.newImage("textures/super_repulsor.png"),love.graphics.newImage("textures/demolisher.png"),love.graphics.newImage("textures/opposition.png")
 tex[52],tex[53],tex[54] = love.graphics.newImage("textures/crossopposition.png"),love.graphics.newImage("textures/slideopposition.png"),love.graphics.newImage("textures/supergenerator.png")
 tex[55],tex[56],tex[57] = love.graphics.newImage("textures/crossmirror.png"),love.graphics.newImage("textures/doublerotator.png"),love.graphics.newImage("textures/driller.png")
+tex[58] = love.graphics.newImage("textures/strongerenemy.png")
 tex.setinitial = love.graphics.newImage("textures/setinitial.png")
 tex.pix = love.graphics.newImage("textures/pixel.png")
 tex.menu = love.graphics.newImage("textures/menu.png")
